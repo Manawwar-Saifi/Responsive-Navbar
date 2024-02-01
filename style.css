@@ -1,0 +1,264 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.main{
+width: 100%;
+height: 100vh;
+background-color: aqua;
+
+
+}
+
+
+.strip{
+    background-color:black;
+    height: 30px;
+    padding: 5px 6%;
+    color:white
+}
+.nav{
+    padding: 0px 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.nav img{
+    
+    width: 15%;
+}
+.nav-items{
+    
+    display: flex;
+    width: 70%;
+    gap: 50px;
+    justify-content: center;
+   
+}
+.nav-items li{
+    list-style: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color:#313131;
+    transition: .3s;
+}
+.nav-items li a:hover{
+
+    color:#f49c39;
+}
+.nav button{
+    border: 0;
+    background-color: #116634;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 15%;
+    transition: .5s;
+}
+.nav button:hover{
+   
+    background-color: #f49c39;
+    color: white;
+    box-shadow: 0px 5px 20px -4px grey;
+    
+}
+
+.menu{
+    display: none;
+}
+
+
+#first-li{
+    display: none;
+}
+@media (min-width: 767px) and (max-width:1024px){
+    .nav-items{
+       display: none;
+   }
+   .menu{
+       display: block;
+       margin-right: 10px;
+   }
+   .main{
+       background-color: green;
+   }
+   .main img{
+       width: 30%;
+   }
+   .nav button{
+       width: 20%;
+   }
+   .menu{
+       width: 40%;
+   }
+   .menu img{
+       width: 20%;
+       float: right;
+   }
+
+   #first-li{
+    display: block;
+    }
+    #first-li img{
+        width: 5%;
+    }
+   .phone-main{
+    background-color: white;
+    display: inline;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0px;
+    transition: .5s;
+    
+}
+   .phone-main li { 
+    font-size: 22px;
+    margin: 10px;
+    color: #fff !important;
+    padding: 3px;
+    transition: .5s;
+}
+   .phone-main li:hover{ 
+    background-color: red;
+    color: white ;
+}
+
+}
+
+
+@media (max-width:480px) {
+    .nav img{
+        width: 35%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .menu{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+
+    }
+    .menu img{
+        width: 60%;
+        float: right;
+    }
+    .nav{
+        padding: 0px 0px;
+    }
+    .nav button{
+        width: 40% !important;
+    }
+    .phone-main{
+        background-color: white;
+        display: inline;
+    }
+    
+   #first-li{
+    display: block;
+    }
+    #first-li img{
+        width: 5%;
+    }
+   .phone-main{
+    background-color: white;
+    display: inline;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0px;
+    transition: .5s;
+    
+}
+   .phone-main li { 
+    font-size: 22px;
+    margin: 10px;
+    color: #fff !important;
+    padding: 3px;
+    transition: .5s;
+}
+   .phone-main li:hover{ 
+    background-color: red;
+    color: white ;
+}
+}   
+@media (min-width:480px) and (max-width:767px) {
+    
+    .nav img{
+        width: 25%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .menu{
+        width: 38%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+
+    }
+    .menu img{
+        width: 20%;
+        float: right;
+    }
+    .nav{
+        padding: 0px 0px;
+    }
+    .nav button{
+        width: 30% !important;
+    }
+    .phone-main{
+        background-color:white;
+        display: inline;
+    }
+    
+   #first-li{
+    display: block;
+    }
+    #first-li img{
+        width: 5%;
+    }
+   .phone-main{
+    background-color: white;
+    display: inline;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0px;
+    transition: .5s;
+    
+}
+   .phone-main li { 
+    font-size: 22px;
+    margin: 10px;
+    color: #fff !important;
+    padding: 3px;
+    transition: .5s;
+}
+   .phone-main li:hover{ 
+    background-color: red;
+    color: white ;
+}
+}   
+
+
+
+
